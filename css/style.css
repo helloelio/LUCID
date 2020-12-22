@@ -1,0 +1,226 @@
+body {
+  font-family: tahoma;
+  font-size: 16px;
+
+  margin: 0;
+}
+
+.first {
+  background: url(https://bilder.t-online.de/b/86/10/41/14/id_86104114/tid_da/noch-heute-koennen-sie-guenstig-technikprodukte-beim-amazon-prime-day-ergattern-.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #2e3a44;
+
+  padding-bottom: 60px;
+}
+
+.logo {
+  font-size: 28px;
+  margin: 0 auto;
+  margin-right: 30em;
+  color: white;
+}
+
+.title {
+  font-size: 18px;
+  margin-right: 80px;
+}
+
+.navigation {
+  padding-top: 30px;
+  text-align: right;
+  font-size: 20px;
+}
+
+a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: white;
+}
+button {
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: 2px solid #3e539b;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* ДЕЛАЕМ ОСНОВУ ПЕРВОЙ СТРАНИЦЫ */
+
+section {
+  display: flex;
+  align-items: stretch;
+}
+
+.firstpage {
+  width: 30%;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+.form {
+  margin-top: 60px;
+  margin-left: 450px;
+  background-color: white;
+  height: 450px;
+  width: 400px;
+  box-shadow: 3px 3px 10px red;
+}
+
+.title_form {
+  padding: 0;
+}
+
+.title_form > h1 {
+  color: black;
+  font-size: 24px;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.title_form > h3 {
+  font-size: 16px;
+  margin-left: 30px;
+  color: #ccc;
+  margin-top: 0;
+}
+
+h4 {
+  color: cornflowerblue;
+}
+
+h1 {
+  color: #fff;
+  font-size: 42px;
+}
+
+p {
+  color: rgba(204, 204, 204, 0.47);
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  margin-right: 30px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.downoload {
+  margin-top: 40px;
+}
+
+button.now {
+  background-color: #0f93ff;
+  border-radius: 2%;
+}
+
+button.features {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 2%;
+}
+
+/* ДЕЛАЕМ ФОРМУ ДЛЯ РЕГИСТРАЦИИ */
+
+input.message {
+  height: 60px;
+}
+
+input {
+  margin-left: 30px;
+  width: 300px;
+  height: 35px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.form_button {
+  margin-left: 30px;
+  margin-top: 15px;
+  color: white;
+  background-color: #0f93ff;
+  border-radius: 2%;
+}
+
+/* footer first page */
+
+.first_footer > h3 {
+  font-size: 22px;
+
+  color: cornflowerblue;
+}
+
+.first_footer {
+  font-size: 42px;
+  text-align: center;
+}
+
+.image_footer {
+  padding-bottom: 39px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image_footer_text > h4 {
+  color: black;
+}
+
+.image_footer_text > p {
+  color: rgba(0, 0, 0, 0.281);
+  text-align: left;
+}
+
+.image_footer_text {
+  width: 20%;
+  margin-left: 50px;
+}
+
+/* MAKE SECOND PAGE ON WEB */
+
+.second_text {
+  width: 26%;
+  text-align: center;
+  margin-left: 37%;
+  padding-top: 13%;
+}
+
+.subscribe_form {
+  margin-left: 40%;
+}
+
+.subscribe_form input::placeholder {
+  color: white;
+}
+
+.subscribe_formaction > button {
+  background-color: #0f93ff;
+  border-radius: 3px;
+}
+
+.subscribe_formaction > input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  border: 0.1em solid rgb(145, 105, 105);
+  width: 200px;
+}
+
+/* third web page */
+
+.third_page {
+  margin-top: 100px;
+}
+
+.section.page_with_iphone {
+  display: flex;
+  align-items: stretch;
+}
